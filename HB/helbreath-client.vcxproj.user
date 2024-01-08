@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)bin\bin\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>-res=1024x768 -vres=1024x768 -login=127.0.0.1:80 -data=sharon@sharonfox.dev:$2y$10$Dy5pdEhnSsBlxO4NMbxE9OBQfmNPn4FUYvPB1urwgVajb9.uj35/a</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-res=1024x768 -vres=1024x768 -login=127.0.0.1:80 -data=sharon@sharonfox.dev:$2y$10$Dy5pdEhnSsBlxO4NMbxE9OBQfmNPn4FUYvPB1urwgVajb9.uj35/a</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(ProjectDir)bin\bin\</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>
